@@ -10,14 +10,15 @@
     "build": "vite build",
     "format": "prettier . --cache --write",
     "start": "vite",
-    "test": "vite build --mode development && testem ci"
+    "explore": "npx source-map-explorer dist/assets/**/*.js --no-border-checks",
+    "inspect": "pnpm build && pnpm explore"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
-    "@babel/runtime": "^7.27.1",
     "@babel/plugin-transform-runtime": "^7.27.1",
-    "@embroider/macros": "^1.18.0",
+    "@babel/runtime": "^7.27.1",
     "@embroider/core": "^4.1.0",
+    "@embroider/macros": "^1.18.0",
     "@embroider/vite": "^1.1.5",
     "@glimmer/component": "^2.0.0",
     "@rollup/plugin-babel": "^6.0.4",
