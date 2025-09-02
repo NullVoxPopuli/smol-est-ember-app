@@ -1,0 +1,3 @@
+[submodule "ember-source"]
+	path = ember-source
+	url = git@github.com:NullVoxPopuli/ember.js.git
