@@ -34,7 +34,7 @@ importers:
         version: 6.0.4(@babel/core@7.28.3)(rollup@4.50.0)
       '@warp-drive/ember':
         specifier: ~5.5.0
-        version: 5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/store@5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js))(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js))(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js)
+        version: 5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/store@5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@ember-source))(@warp-drive/core-types@5.5.0)(ember-source@ember-source))(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0)(ember-source@ember-source)
       babel-plugin-ember-template-compilation:
         specifier: ^2.4.1
         version: 2.4.1
@@ -45,8 +45,8 @@ importers:
         specifier: ^2.3.0
         version: 2.3.0(@babel/core@7.28.3)
       ember-source:
-        specifier: link:/Users/psego/Development/OpenSource/emberjs/ember.js/
-        version: link:../../../OpenSource/emberjs/ember.js
+        specifier: link:ember-source
+        version: link:ember-source
       prettier:
         specifier: ^3.5.3
         version: 3.6.2
@@ -3329,7 +3329,7 @@ snapshots:
 
   '@ember-data/rfc395-data@0.0.4': {}
 
-  '@ember-data/store@5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js))(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js)':
+  '@ember-data/store@5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@ember-source))(@warp-drive/core-types@5.5.0)(ember-source@ember-source)':
     dependencies:
       '@ember-data/request': 5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0)
       '@ember-data/request-utils': 5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0)
@@ -3337,18 +3337,18 @@ snapshots:
       '@warp-drive/build-config': 5.5.0
       '@warp-drive/core-types': 5.5.0
     optionalDependencies:
-      '@ember-data/tracking': 5.5.0(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js)
-      ember-source: link:../../../OpenSource/emberjs/ember.js
+      '@ember-data/tracking': 5.5.0(@warp-drive/core-types@5.5.0)(ember-source@ember-source)
+      ember-source: link:ember-source
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
 
-  '@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js)':
+  '@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@ember-source)':
     dependencies:
       '@embroider/macros': 1.18.1
       '@warp-drive/build-config': 5.5.0
       '@warp-drive/core-types': 5.5.0
-      ember-source: link:../../../OpenSource/emberjs/ember.js
+      ember-source: link:ember-source
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
@@ -3738,16 +3738,16 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  '@warp-drive/ember@5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/store@5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js))(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js))(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js)':
+  '@warp-drive/ember@5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/store@5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@ember-source))(@warp-drive/core-types@5.5.0)(ember-source@ember-source))(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0)(ember-source@ember-source)':
     dependencies:
       '@ember-data/request': 5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0)
       '@ember-data/request-utils': 5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0)
-      '@ember-data/store': 5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js))(@warp-drive/core-types@5.5.0)(ember-source@..+..+OpenSource+emberjs+ember.js)
+      '@ember-data/store': 5.5.0(@ember-data/request-utils@5.5.0(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember/string@4.0.1)(@warp-drive/core-types@5.5.0))(@ember-data/request@5.5.0(@ember/test-waiters@4.1.1)(@warp-drive/core-types@5.5.0))(@ember-data/tracking@5.5.0(@warp-drive/core-types@5.5.0)(ember-source@ember-source))(@warp-drive/core-types@5.5.0)(ember-source@ember-source)
       '@ember/test-waiters': 4.1.1
       '@embroider/macros': 1.18.1
       '@warp-drive/build-config': 5.5.0
       '@warp-drive/core-types': 5.5.0
-      ember-source: link:../../../OpenSource/emberjs/ember.js
+      ember-source: link:ember-source
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
