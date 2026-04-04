@@ -14,22 +14,22 @@
     "inspect": "pnpm build && pnpm explore"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.1",
-    "@babel/plugin-transform-runtime": "^7.27.1",
-    "@babel/runtime": "^7.27.1",
-    "@embroider/core": "^4.1.0",
-    "@embroider/macros": "^1.18.0",
-    "@embroider/vite": "^1.1.5",
+    "@babel/core": "^7.29.0",
+    "@babel/plugin-transform-runtime": "^7.29.0",
+    "@babel/runtime": "^7.29.2",
+    "@embroider/core": "^4.4.7",
+    "@embroider/macros": "^1.20.2",
+    "@embroider/vite": "^1.7.2",
     "@glimmer/component": "^2.0.0",
-    "@rollup/plugin-babel": "^6.0.4",
-    "@warp-drive/ember": "~5.5.0",
-    "babel-plugin-ember-template-compilation": "^2.4.1",
+    "@rollup/plugin-babel": "^7.0.0",
+    "@warp-drive/ember": "~5.8.1",
+    "babel-plugin-ember-template-compilation": "^4.0.0",
     "concurrently": "^9.1.2",
-    "decorator-transforms": "^2.3.0",
+    "decorator-transforms": "^2.3.1",
     "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/canary/shas/6cf7c2d72b2b8d29dbead002c3d0d4a6ce14fe90.tgz",
-    "prettier": "^3.5.3",
-    "prettier-plugin-ember-template-tag": "^2.0.5",
-    "vite": "^6.3.5"
+    "prettier": "^3.8.1",
+    "prettier-plugin-ember-template-tag": "^2.1.3",
+    "vite": "^8.0.3"
   },
   "engines": {
     "node": ">= 18"
