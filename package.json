@@ -26,7 +26,7 @@
     "babel-plugin-ember-template-compilation": "^4.0.0",
     "concurrently": "^9.1.2",
     "decorator-transforms": "^2.3.1",
-    "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/canary/shas/6cf7c2d72b2b8d29dbead002c3d0d4a6ce14fe90.tgz",
+    "ember-source": "file:ember-source-7.1.0-alpha.1.nvp-remove-barrel-imports+cfe606e3.tgz",
     "prettier": "^3.8.1",
     "prettier-plugin-ember-template-tag": "^2.1.3",
     "vite": "^8.0.3"
