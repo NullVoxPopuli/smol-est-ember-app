@@ -1383,7 +1383,7 @@ packages:
     engines: {node: 8.* || 10.* || >= 12}
 
   ember-source@file:ember-source-7.1.0-alpha.1.nvp-remove-barrel-imports+cfe606e3.tgz:
-    resolution: {integrity: sha512-audg55MI1xqarB3TJ9kATRilaGqBU9uWe9VM3qB+kZiv7zbXitzSVRbf0L5XYMzlYdqkx8W9JUqg/1iBEIlEQA==, tarball: file:ember-source-7.1.0-alpha.1.nvp-remove-barrel-imports+cfe606e3.tgz}
+    resolution: {integrity: sha512-y3p3x9OpzsHqUmAZ4HeGhAq15oCar1ioyke2SZfNNT04nW9Vva6G4xryb8kUq4YCMc7j1WdcQ6Ig7nxHFpLKMQ==, tarball: file:ember-source-7.1.0-alpha.1.nvp-remove-barrel-imports+cfe606e3.tgz}
     version: 7.1.0-alpha.1.nvp-remove-barrel-imports
     engines: {node: '>= 20.19'}
     peerDependencies:
