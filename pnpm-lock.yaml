@@ -1383,8 +1383,8 @@ packages:
     engines: {node: 8.* || 10.* || >= 12}
 
   ember-source@file:ember-source-7.1.0-alpha.1.nvp-remove-barrel-imports+cfe606e3.tgz:
-    resolution: {integrity: sha512-y3p3x9OpzsHqUmAZ4HeGhAq15oCar1ioyke2SZfNNT04nW9Vva6G4xryb8kUq4YCMc7j1WdcQ6Ig7nxHFpLKMQ==, tarball: file:ember-source-7.1.0-alpha.1.nvp-remove-barrel-imports+cfe606e3.tgz}
-    version: 7.1.0-alpha.1.nvp-remove-barrel-imports
+    resolution: {integrity: sha512-4zJCUDXmJDdlkQqcYjuyTmdS80Kr4UHz/5pUjJi7CIkWoLvuB2WAjw4iWc87R3RTbYQ3jl/X9aZXDTqxGppmEw==, tarball: file:ember-source-7.1.0-alpha.1.nvp-remove-barrel-imports+cfe606e3.tgz}
+    version: 7.1.0-alpha.1.nvp-explore-true-minimal-app
     engines: {node: '>= 20.19'}
     peerDependencies:
       '@glimmer/component': '>= 1.1.2'
